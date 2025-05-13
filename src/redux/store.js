@@ -11,7 +11,7 @@ import {
   REGISTER,
 } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
-import { filterReducer } from './filters/filterslice';
+import { filterReducer } from './filters/filterSlice';
 
 const persistConfig = {
   key: 'root',
